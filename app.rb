@@ -1,5 +1,6 @@
 require 'sinatra'
+set :public_folder, 'public'
 
 get '/' do
-  'Choo Choo! Welcome to your Sinatra server 🚅'
+  send_file File.join(settings.public_folder, 'index.html')
 end
