@@ -3,6 +3,7 @@ require 'sendgrid-ruby'
 include SendGrid
 
 
+
 set :public_folder, 'public'
 
 get '/' do
