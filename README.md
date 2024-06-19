@@ -22,3 +22,5 @@ This example is a simple [Sinatra](http://sinatrarb.com) webserver.
 - Connect to your Railway project `railway link`
 - Install Ruby requirements `bundle install`
 - Run Sinatra `railway run ruby app.rb`
+
+redeploy
